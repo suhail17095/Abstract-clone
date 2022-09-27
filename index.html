@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    a:hover{
+        color: red;
+    }
+    .navbar {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        background-color: black;
+        height: 50px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .logo img {
+        width: 25px;
+        height: 25px;
+        margin-left: 50px;
+        margin-right: 30px;
+        transform: all 5s ease-in-out;
+    }
+    .logo img:hover{
+        transform:scale(1.3) ;
+    }
+    .right {
+        margin-left: 800px;
+    }
+
+    .submit {
+        border: 2px solid #707171;
+        background-color: #191A1E;
+        padding: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .submit:hover{
+        color: red;
+    }
+ 
+    .sign {
+        background-color: #4C5FD5;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .sign:hover{
+        padding: 7px;
+    }
+
+    input {
+        width: 450px;
+        height: 35px;
+        text-align: left;
+        color: #989C9A;
+    }
+    input:hover{
+        border: solid red 5px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+        background-color: #DBDCF3;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .main1 {
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .right1{
+        /* display: flex;
+        flex-direction: column; */
+        margin-left: 200px;
+    }
+    .fitems{
+        width: 300px;
+    }
+    .bold{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .light{
+        color:#BFB9CC;
+    }
+    .foot{
+        margin-top: 50px;
+        height: 320px;
+        background-color:black;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        display: flex;
+    }
+    .fitems1{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .l{
+        width: 25px;
+        height: 25px;
+        margin-top: 60%;
+    }
+    .c{
+        margin-left: 50px;
+    }
+    .foot .bold:hover{
+        text-decoration: underline;
+    }
+    .one{
+        translate: all 4s ease-in-out;
+    }
+    .one:hover{
+        transform: scale(1.1);
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href=""><img src="logo.png" alt=""></a>
+            </div>
+            <a href="" class="left">Abstract</a>
+            <a href="" class="left">Help Center</a>
+            <div class="right">
+                <a href="" class="submit">Submit request</a>
+                <a href="" class="sign">Sign in</a>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <h1>How can we help?</h1>
+        <input type="text" placeholder="Search..">
+    </div>
+    <div class="main1">
+        <div class="left1">
+            <div class="fitems">
+                <div class="img1">
+                    <!-- helo -->
+                    <img src="img1.png" alt="">
+
+                </div>
+                <div class="text">
+                    <p class="bold">Branches</p>
+                    <p class="light">Abstract Branches lets you manage, version, and document your design in one place
+                    </p>
+
+                </div>
+            </div>
+            <div class="fitems">
+                <div class="img1">
+                    <!-- helo -->
+                    <img src="img2.png" alt="">
+
+                </div>
+                <div class="text">
+                    <p class="bold">Manage organizations, teams and</p>
+                    <p class="light">
+                        Use Abstract organizations, teams and projects to organize your people and your work.
+                    </p>
+
+                </div>
+            </div>
+            <div class="fitems">
+                <div class="img1">
+                    <!-- helo -->
+                    <img src="img3.png" alt="">
+
+                </div>
+                <div class="text">
+                    <p class="bold">Authenticate to Abstract</p>
+                    <p class="light">Set up and configure SSSCIM, and just-in-Time provisioning
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="right1">
+            <div class="fitems">
+                <div class="img1">
+                    <!-- helo -->
+                    <img src="img4.png" alt="">
+
+                </div>
+                <div class="text">
+                    <p class="bold">Manage Your account</p>
+                    <p class="light">
+                        Configure your account settings, such as your email, profile details , and password.
+                    </p>
+
+                </div>
+            </div>
+            <div class="fitems five">
+                <div class="img1">
+                    <!-- helo -->
+                    <img src="img5.png" alt="">
+
+                </div>
+                <div class="text">
+                    <p class="bold">Manage billing</p>
+                    <p class="light">Change subscriptions and payment
+                    </p>
+
+                </div>
+            </div>
+            <div class="fitems six">
+                <div class="img6">
+                    <!-- helo -->
+                    <img src="img1.png" alt="">
+
+                </div>
+                <div class="text">
+                    <p class="bold">Abstract support</p>
+                    <p class="light">Get in touch with a human.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <div class="fitems1 c">
+                <p class="bold" style="color: white;">Abstract</p>
+                <p class="light">Branches</p>
+            </div>
+            <div class="fitems1">
+                <p class="bold" style="color: white;">Resources</p>
+                <p class="light">Blog <br> Help center <br> Release Notes <br>Status</p>
+            </div>
+            <div class="fitems1">
+                <p class="bold" style="color: white;">Community</p>
+                <p class="light">Twitter <br> Linkedin <br> FAcebook <br> Dribble <br> Podcast</p>
+            </div>
+            <div class="fitems1">
+                <p class="bold" style="color: white;">Company</p>
+                <p class="light">About us <br> Careers <br> Legal <br> <br> Contact Us <br> info@abstract.com</p>
+            </div>
+            <div class="fitems1">
+                <img src="logo.png" alt="" class="l one">
+                <p class="light">
+                    Abstract Studio Design,Inc.
+                    <br>
+                    All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
